@@ -28,3 +28,12 @@ Qt Quick plugin to render beautiful and interactive charts.
 %install
 %makeinstall_std -C build
 
+%changelog
+* Mon Sep 29 2014 Andrey Bondrov <andrey.bondrov@rosalab.ru> 4.14.1-1
+- New version 4.14.1
+
+* Tue Jul 15 2014 Andrey Bondrov <andrey.bondrov@rosalab.ru> 4.13.3-1
+- New version 4.13.3
+
+* Wed Jun 11 2014 Andrey Bondrov <andrey.bondrov@rosalab.ru> 4.13.2-1
+- Initial package
