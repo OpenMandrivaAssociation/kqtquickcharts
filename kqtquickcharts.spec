@@ -1,7 +1,7 @@
 Summary:	Qt Quick plugin to render beautiful and interactive charts
 Name:		kqtquickcharts
-Version:	15.04.3
-Release:	2
+Version:	15.08.0
+Release:	1
 License:	LGPLv2.1+
 Group:		Development/KDE and Qt
 Url:		http://edu.kde.org
@@ -22,7 +22,8 @@ Qt Quick plugin to render beautiful and interactive charts.
 %setup -q
 
 %build
-%cmake_kde4
+%cmake_kde4 \
+	-DCMAKE_MINIMUM_REQUIRED_VERSION=3.1
 %make
 
 %install
