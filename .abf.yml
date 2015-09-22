@@ -1,2 +1,4 @@
-sources:
+removed_sources:
   kqtquickcharts-15.08.0.tar.xz: e08f286bc612e12c7ff562c2726e310616a47ab7
+sources:
+  kqtquickcharts-15.08.1.tar.xz: 5085708cb3a4c4c972c236665fcd3ee8ed6677c5
