@@ -1,6 +1,6 @@
 Summary:	Qt Quick plugin to render beautiful and interactive charts
 Name:		kqtquickcharts
-Version:	16.12.1
+Version:	16.12.2
 Release:	1
 License:	LGPLv2.1+
 Group:		Development/KDE and Qt
@@ -13,8 +13,17 @@ Qt Quick plugin to render beautiful and interactive charts.
 
 %files
 %doc COPYING AUTHORS
-%dir %{_kde_libdir}/kde4/imports/org/kde/charts
-%{_kde_libdir}/kde4/imports/org/kde/charts/*
+%{_includedir}/KF5/kqtquickcharts_version.h
+%{_libdir}/cmake/KQtQuickCharts/KQtQuickChartsVersion.cmake
+%{_libdir}/qml/org/kde/charts/BarChart.qml
+%{_libdir}/qml/org/kde/charts/Label.qml
+%{_libdir}/qml/org/kde/charts/LegendItem.qml
+%{_libdir}/qml/org/kde/charts/LineChart.qml
+%{_libdir}/qml/org/kde/charts/LineLabel.qml
+%{_libdir}/qml/org/kde/charts/XYChart.qml
+%{_libdir}/qml/org/kde/charts/libkqtquickcharts.so
+%{_libdir}/qml/org/kde/charts/qmldir
+
 
 #----------------------------------------------------------------------------
 

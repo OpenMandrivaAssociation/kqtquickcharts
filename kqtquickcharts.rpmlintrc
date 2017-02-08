@@ -1,0 +1,2 @@
+# Intentional, since the header is used to locate QML files
+addFilter("E: devel-file-in-non-devel-package")
