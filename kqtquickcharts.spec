@@ -23,17 +23,12 @@ Qt Quick plugin to render beautiful and interactive charts.
 
 %files
 %doc COPYING AUTHORS
+%dir %{_libdir}/qt5/qml/org/kde/charts
 %{_includedir}/KF5/kqtquickcharts_version.h
 %{_libdir}/cmake/KQtQuickCharts/KQtQuickChartsVersion.cmake
-%{_libdir}/qml/org/kde/charts/BarChart.qml
-%{_libdir}/qml/org/kde/charts/Label.qml
-%{_libdir}/qml/org/kde/charts/LegendItem.qml
-%{_libdir}/qml/org/kde/charts/LineChart.qml
-%{_libdir}/qml/org/kde/charts/LineLabel.qml
-%{_libdir}/qml/org/kde/charts/XYChart.qml
-%{_libdir}/qml/org/kde/charts/libkqtquickcharts.so
-%{_libdir}/qml/org/kde/charts/qmldir
-
+%{_libdir}/qt5/qml/org/kde/charts/*.qml
+%{_libdir}/qt5/qml/org/kde/charts/libkqtquickcharts.so
+%{_libdir}/qt5/qml/org/kde/charts/qmldir
 
 #----------------------------------------------------------------------------
 
