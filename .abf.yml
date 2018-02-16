@@ -1,2 +1,4 @@
-sources:
+removed_sources:
   kqtquickcharts-17.12.1.tar.xz: a5bd60976ff16c2417add23ddfbe945aa487acbe
+sources:
+  kqtquickcharts-17.12.2.tar.xz: e5d656c0da0afdacdc5fcf98ec3083257fbd730c
