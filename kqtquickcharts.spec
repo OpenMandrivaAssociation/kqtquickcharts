@@ -1,6 +1,6 @@
 Summary:	Qt Quick plugin to render beautiful and interactive charts
 Name:		kqtquickcharts
-Version:	 18.11.80
+Version:	 18.11.90
 Release:	1
 License:	LGPLv2.1+
 Group:		Development/KDE and Qt
