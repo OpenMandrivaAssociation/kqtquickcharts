@@ -1,6 +1,6 @@
 Summary:	Qt Quick plugin to render beautiful and interactive charts
 Name:		kqtquickcharts
-Version:	19.11.90
+Version:	19.12.0
 Release:	1
 License:	LGPLv2.1+
 Group:		Development/KDE and Qt
@@ -11,7 +11,7 @@ Url:		http://edu.kde.org
 %else
 %define ftpdir stable
 %endif
-Source0:	http://download.kde.org/%{ftpdir}/applications/%{version}/src/%{name}-%{version}.tar.xz
+Source0:	http://download.kde.org/%{ftpdir}/release-service/%{version}/src/%{name}-%{version}.tar.xz
 Source1:	%{name}.rpmlintrc
 BuildRequires:	cmake(ECM)
 BuildRequires:	cmake(Qt5Core)
