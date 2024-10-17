@@ -4,7 +4,7 @@ Version:	24.02.0
 Release:	1
 License:	LGPLv2.1+
 Group:		Development/KDE and Qt
-Url:		http://edu.kde.org
+Url:		https://edu.kde.org
 %define is_beta %(if test `echo %{version} |cut -d. -f3` -ge 70; then echo -n 1; else echo -n 0; fi)
 %if %{is_beta}
 %define ftpdir unstable
