@@ -1,6 +1,6 @@
 Summary:	Qt Quick plugin to render beautiful and interactive charts
 Name:		kqtquickcharts
-Version:	24.02.0
+Version:	25.08.1
 Release:	1
 License:	LGPLv2.1+
 Group:		Development/KDE and Qt
@@ -14,23 +14,23 @@ Url:		https://edu.kde.org
 Source0:	http://download.kde.org/%{ftpdir}/release-service/%{version}/src/%{name}-%{version}.tar.xz
 Source1:	%{name}.rpmlintrc
 BuildRequires:	cmake(ECM)
-BuildRequires:	cmake(Qt5Core)
-BuildRequires:	cmake(Qt5Gui)
-BuildRequires:	cmake(Qt5Qml)
-BuildRequires:	cmake(Qt5Quick)
+BuildRequires:	cmake(Qt6Core)
+BuildRequires:	cmake(Qt6Gui)
+BuildRequires:	cmake(Qt6Qml)
+BuildRequires:	cmake(Qt6Quick)
 
 %description
 Qt Quick plugin to render beautiful and interactive charts.
 
 %files
 %doc COPYING AUTHORS
-%dir %{_libdir}/qt5/qml/org/kde/charts
-%{_includedir}/KF5/kqtquickcharts_version.h
-%{_libdir}/cmake/KQtQuickCharts/KQtQuickChartsVersion.cmake
+%dir %{_qtdir}/qml/org/kde/charts
+%{_includedir}/KF6/kqtquickcharts_version.h
+%{_libdir}/cmake/KQtQuickCharts/KQtQuickChartsConfigVersion.cmake
 %{_libdir}/cmake/KQtQuickCharts/KQtQuickChartsConfig.cmake
-%{_libdir}/qt5/qml/org/kde/charts/*.qml
-%{_libdir}/qt5/qml/org/kde/charts/libkqtquickcharts.so
-%{_libdir}/qt5/qml/org/kde/charts/qmldir
+%{_qtdir}/qml/org/kde/charts/*.qml
+%{_qtdir}/qml/org/kde/charts/libkqtquickcharts.so
+%{_qtdir}/qml/org/kde/charts/qmldir
 
 #----------------------------------------------------------------------------
 
